@@ -2,11 +2,38 @@ body, main {
     display: flex
 }
 body {
-    flex-direction: column
+    flex-direction: column;
+    background-image: url("https://i.postimg.cc/Y232Gfkq/35748693372-0e1c5c63f8-k-1.jpg");
+    background-attachment: fixed;
+    opacity: 1
+}
+h1{
+    color:rgb(255,255,255);
+    font-family: 'Rubik';
+    font-weight: 800;
+    font-size: 50px;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Rubik,Lato,Lucida Grande,Lucida Sans Unicode,Tahoma,Sans-Serif';
+    font-weight: '700'
+}
+header a {
+    color:#ff8a00;
+    font-weight: 700;
+    font-family:-system-ui;
+    
+}
+
+header{
+    background-color:rgb(16,14,23);
+    padding-left: 15px;
+    font-family: 'Florence';
+    height:120px;
 }
 main {
     flex-direction: row;
-    flex: auto
+    flex: auto;
+    background-color:rgb(255,255,255);
 }
 article {
     flex: 2;
