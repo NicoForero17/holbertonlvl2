@@ -7,23 +7,46 @@
     <style media="screen"></style>
     <link href="https://www.holbertonschool.com/level2/holberton.css" rel="stylesheet"/>
     <link href="styles.css" rel="stylesheet"/>
+    <script src="behavior.js"></script>
   </head>
   <body class="works_on_smartphone">
     <header>
-      <h2>Why you should travel with AIESEC?</h2>
-      <ul>
-	<li><a href="/"> Main</a></li>
-	<li><a href="/tweets.html"> Tweets</a></li>
-	<li><a href="/"> Page 3</a></li>
-	<li><a href="/"> Page 4</a></li>
-      </ul>
+      <div class="right">
+	<a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" ></script>
+
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
+	  fjs.parentNode.insertBefore(js, fjs);
+	  }(document, 'script', 'facebook-jssdk'));</script>
+
+	<div class="fb-share-button"
+	     data-href="http://3.89.228.7"
+	     data-layout="button_count">
+	    </div>
+      </div>
+      <h1>Why to be an <em>AIESECer?</em></h1>
+      <div class="navbar">
+	<ul>
+	  <li class="logo" style="color: #ff8a00;"> &#10165;</li>
+	  <li><a href="/"> Main</a></li>
+	  <li class="current"><a href="/tweets.html"> Tweets</a></li>
+	  <li><a href="/leadership.html"> Leadership</a></li>
+	  <li><a href="/values.html"> Values</a></li>
+	  <li><a href="/stories.html"> Stories of Love </a></li>
+	</ul>
+      </div>x
     </header>
     <main>
       <article>
 	<h3> Tweets </h3>
-	<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Hello World <a href="https://twitter.com/holbertonschool?ref_src=twsrc%5Etfw">@holbertonschool</a> ☕️🤓</p>&mdash; Nicolás Forero (@badniconame) <a href="https://twitter.com/badniconame/status/1200553157811679233?ref_src=twsrc%5Etfw">November 29, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js"></script>
+	<blockquote class="twitter-tweet" data-theme="dark"><p lang="en" dir="ltr">Hello World <a href="https://twitter.com/holbertonschool?ref_src=twsrc%5Etfw">@holbertonschool</a> ☕️🤓</p>&mdash; Nicolás Forero (@badniconame) <a href="https://twitter.com/badniconame/status/1200553157811679233?ref_src=twsrc%5Etfw">November 29, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js"></script>
       </article>
       <aside>
+	<div id="disqus_thread"></div>
       </aside>
     </main>
     <footer>
